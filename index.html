@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>mr robot - Pesquisa Google</title>
+</head>
+
+<body>
+
+    <!--2. HEADER-->
+    <header class="header">
+        <div class="header__search">
+            <img src="./assets/google-logo.png" alt="logo do google" id="logo">
+            <div class="input-box">
+                <input type="text" placeholder="mr robot" id="input-search">
+                <div class="input-box__bi">
+                    <bi class="bi-x"></bi>
+                    <bi class="bi-chat"></bi>
+                    <bi class="bi-mic"></bi>
+                    <bi class="bi-search"></bi>
+                </div>
+            </div>
+            <div class="header__search__bi">
+                <bi class="bi-gear"></bi>
+                <bi class="bi-three-dots-vertical"></bi>
+                <div class="box-circle" id="myself"></div>
+            </div>
+        </div>
+
+        <!--2. HEADER - NavBar-->
+        <div class="header-nav">
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-itens" id="nav-itens__active">
+                        <bi class="bi-search"></bi>Todas
+                    </li>
+                    <li class="nav-itens">
+                        <bi class="bi-newspaper"></bi>Noticias
+                    </li>
+                    <li class="nav-itens">
+                        <bi class="bi-image"></bi>Imagens
+                    </li>
+                    <li class="nav-itens">
+                        <bi class="bi-play"></bi>Vídeos
+                    </li>
+                    <li class="nav-itens">
+                        <bi class="bi-bag"></bi>Shopping
+                    </li>
+                    <li class="nav-itens">
+                        <bi class="bi-three-dots-vertical"></bi>Mais
+                    </li>
+                    <li class="nav-itens">Ferramentas</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <hr>
+
+    <!--3. MAIN-->
+    <main>
+        <!--3. MAIN - MainSearch-->
+        <section class="main-search">
+            <div class="search-result">
+                <p class="p-third" id="p-result">
+                    Aproximadamente 274.000.000 resultados (0,48 segundos)
+                </p>
+                <div class="search-result-box">
+                    <p class="p-third"><strong>Anúncio - </strong> https://www.primevideo.com/ <bi
+                            class="bi-caret-down-fill">
+                    </p>
+                    <p class="p-first">Sociedade Hacker - Comece Seu Teste Grátis - PrimeVideo.com</p>
+                    <p class="p-third__result">Assista a Sociedade Hacker e Amazon Originals quando e onde quiser.</p>
+                </div>
+                <div class="search-result-box">
+                    <p class="p-third">https://pt.wikipedia.org > wiki > Mr._Robot <bi class="bi-caret-down-fill"></bi>
+                    </p>
+                    <p class="p-first">Mr. Robot – Wikipédia, a enciclopédia livre</p>
+                    <p class="p-third__result">Robot é um cyber thriller de suspense com histórias oportunas e premissas
+                        intrigantes e provocativas." No Metacritic, marcou 79 de 100, baseado em 24 opiniões.</p>
+                </div>
+            </div>
+
+            <div class="people-question">
+                <p class="p-question">As pessoas também perguntam</p>
+                <hr>
+                <p>Qual a doença que Elliot tem?</p>
+                <hr>
+                <p>Por que assistir Mr. Robot?</p>
+                <hr>
+                <p>Quantas temporadas são Mr. Robot?</p>
+                <hr>
+                <p>Onde assistir a quarta temporada de Mr. Robot?</p>
+                <hr>
+            </div>
+
+            <p class="p-question">Pesquisas relacionadas</p>
+
+            <div class="box-search-line">
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong>temporadas</strong></p>
+                </div>
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong>resumo</strong></p>
+                </div>
+            </div>
+
+            <div class="box-search-line">
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong>netflix</strong></p>
+                </div>
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong>imdb</strong></p>
+                </div>
+            </div>
+
+            <div class="box-search-line">
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong> 4 temporada</strong></p>
+                </div>
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong>trailer</strong></p>
+                </div>
+            </div>
+
+            <div class="box-search-line">
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong> série</strong></p>
+                </div>
+                <div class="box-search__row-1">
+                    <bi class="bi-search"></bi>
+                    <p>mr robot <strong>season 5</strong></p>
+                </div>
+            </div>
+
+            <!--3. FOOTER SEARCH-->
+            <div class="footer-search">
+                <div class="footer-search__box">
+                    <img id="footer-logo" src="./assets/google-logo.png" alt="footer google logo">
+                    <ul class="search-links__nav">
+                        <li class="search-links-itens"><a id="search-links-itens-active" href="#">1</a></li>
+                        <li class="search-links-itens"><a href="#">2</a></li>
+                        <li class="search-links-itens"><a href="#">3</a></li>
+                        <li class="search-links-itens"><a href="#">4</a></li>
+                        <li class="search-links-itens"><a href="#">5</a></li>
+                        <li class="search-links-itens"><a href="#">6</a></li>
+                        <li class="search-links-itens"><a href="#">7</a></li>
+                        <li class="search-links-itens"><a href="#">8</a></li>
+                        <li class="search-links-itens"><a href="#">9</a></li>
+                        <li class="search-links-itens"><a href="#">10</a></li>
+                    </ul>
+                </div>
+                <div class="search-more">
+                    <p>></p>
+                    <p>Mais</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--4. MAIN - Main-Aside-->
+        <section class="main-aside">
+            <div class="galery">
+                <div class="galery-1"></div>
+                <div class="galery-column">
+                    <div class="galery-row-1">
+                        <div class="galery-2"></div>
+                        <div class="galery-3"></div>
+                        <div class="galery-4"></div>
+                    </div>
+                    <div class="galey-row-2">
+                        <div class="galery-5"></div>
+                        <div class="galery-6"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">
+                <div class="title-box">
+                    <h1>Mr. Robot</h1>
+                    <p class="p-third">2015 - Drama - 4 temporadas</p>
+                </div>
+                <bi class="bi-arrows-move"></bi>
+            </div>
+            <hr>
+
+            <div class="watch-icons">
+                <div class="watch-icons__box">
+                    <div class="box-circle" id="amazon"></div>
+                    <p class="p-third">Assistir agora</p>
+                </div>
+
+                <div class="watch-icons__box">
+                    <div class="box-circle">
+                        <bi class="bi-check"></bi>
+                    </div>
+                    <p class="p-third">Já assistiu?</p>
+                </div>
+
+                <div class="watch-icons__box">
+                    <div class="box-circle">
+                        <bi class="bi-bookmark"></bi>
+                    </div>
+                    <p class="p-third">Lista de interesses</p>
+                </div>
+            </div>
+
+            <div class="watch-yet">
+                <p class="p-third">
+                    <bi class="bi-caret-down"></bi>
+                    Todas as opções para assistir
+                </p>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+bi {
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.box-circle {
+    border: 1px solid dodgerblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+hr {
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+
+.p-third {
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+li {
+    list-style: none;
+}
+
+/*2. HEADER*/
+
+.header__search {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#logo {
+    width: 100px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    border: 1px solid black;
+    width: 600px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#input-search { 
+    width: 200px; 
+    border: none;
+    outline: none;   
+}
+
+#input-search::placeholder {
+    color: black;
+}
+
+.bi-x {
+    padding-right: 5px;
+    border-right: 1px solid gray;
+    margin-right: 10px;
+}
+
+.input-box__bi bi:hover {
+    color: dodgerblue;
+}
+
+.bi-chat {
+    margin-right: 5px;
+}
+
+.bi-mic {
+    margin-right: 5px;
+}
+
+.header__search__bi {
+    align-items: center;
+    display: flex;
+    flex-grow: 2;
+    justify-content: end;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.header__search__bi bi {
+    margin: 10px;
+}
+
+.header__search__bi bi:hover {
+    color: dodgerblue;
+}
+
+#myself {
+    background-image: url('./assets/myself.jfif');
+}
+
+/*2. HEADER - NavBar*/
+
+.navbar {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.nav-list {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.nav-list .bi-search, #nav-itens__active   {
+    color: dodgerblue;
+}
+
+#nav-itens__active {
+    border-bottom: 1px solid dodgerblue;
+}
+
+.nav-list bi {
+    font-size: .8rem;
+    margin: 2px;
+}
+
+.nav-itens {
+    margin: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nav-itens:hover {
+    color: dodgerblue;
+}
+
+
+/*3. MAIN*/
+
+main {
+    display: flex;
+    margin-left: 150px;
+}
+
+/*3. MAIN - MainSearch*/
+
+.main-search {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.search-result-box {
+    margin-bottom: 30px;
+}
+
+#p-result {
+    color: gainsboro;
+    margin-bottom: 10px;
+}
+
+.search-result-box bi {
+    font-size: .6rem;
+}
+
+.p-first {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: blue;
+    cursor: pointer;
+}
+
+.p-first:hover {
+    border-bottom: 1px solid blue;
+}
+
+.p-third__result {
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.p-question {
+    font-size: 1.5rem;
+}
+
+.people-question {
+    margin-bottom: 30px;
+}
+
+.box-search-line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-search__row-1 {
+    margin-top: 8px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 30px;
+    display: flex;
+    padding: 5px 8px;
+    width: 250px; 
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.box-search__row-1 bi {
+    font-size: .9rem;
+    margin-right: 5px;
+}
+
+/*3. FOOTER SEARCH*/
+
+.footer-search {
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+
+.search-more {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    color: dodgerblue; 
+    cursor: pointer; 
+}
+
+.search-more:hover {
+    opacity: .3;;
+}
+
+
+#footer-logo {
+    width: 300px;
+    height: 100px;
+}
+
+.search-links__nav {
+    display: flex;
+}
+
+.search-links-itens {
+    margin: -20px 10px;
+}
+
+#search-links-itens-active {
+    color: dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+
+
+
+
+/*4. MAIN - Main-Aside*/
+
+.main-aside {
+    margin-left: 90px;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.galery {
+    display: flex;
+    height: 200px;
+}
+
+.galery-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.galery-1 {
+    background-image: url('./assets/mr-robot-1.jpg');
+    height: 200px;
+    width: 110px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+}
+
+.galery-row-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 1px;
+}
+
+.galery-2 {
+    background-image: url('./assets/mr-robot-2.png');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 80px;
+    margin: 0 1px;
+}
+
+.galery-3 {
+    background-image: url('./assets/mr-robot-3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 80px;
+    margin: 0 1px;
+}
+
+.galery-4 {
+    background-image: url('./assets/mr-robot-4.jfif');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 80px;
+    margin: 0 1px;
+    border-top-right-radius: 10px;
+}
+
+.galey-row-2 {
+    display: flex;
+}
+
+.galery-5 {
+    background-image: url('./assets/mr-robot-5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 99px;
+    width: 121px;
+    margin: 1px 1px;
+}
+
+
+.galery-6 {
+    background-image: url('./assets/mr-robot-6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 99px;
+    width: 121px;
+    margin: 1px 1px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.watch-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.watch-icons__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watch-icons .box-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+
+.watch-icons bi {
+    font-size: 1.1rem;
+}
+
+#amazon {
+    background-image: url('./assets/amazon.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.watch-yet p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.watch-yet bi {
+    font-size: .9rem;
+}
+
+
+
+
